@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/alinabeketova.github.io-hhh/static/css/main.0e31bae3.css",
+    "main.js": "/alinabeketova.github.io-hhh/static/js/main.94ceac92.js",
+    "static/media/1.jpg": "/alinabeketova.github.io-hhh/static/media/1.7699fde1534adb8be554.jpg",
+    "index.html": "/alinabeketova.github.io-hhh/index.html",
+    "main.0e31bae3.css.map": "/alinabeketova.github.io-hhh/static/css/main.0e31bae3.css.map",
+    "main.94ceac92.js.map": "/alinabeketova.github.io-hhh/static/js/main.94ceac92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e31bae3.css",
+    "static/js/main.94ceac92.js"
+  ]
+}
