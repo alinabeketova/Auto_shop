@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { Routes, Route } from 'react-router-dom';
+import Header from './components/header/header';
+import Page from './pages/page';
+
+const img67 ='https://www.ljplus.ru/img4/m/i/miss_apriori/40743208.jpg'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper">
+      <Header />
+      <Routes>
+        <Route path='/' element={<Page img='img/1.jpg' title='модель 01'/>}/>
+        <Route path='/shop' element={<Page img='img/2.jpg' title='модель 02'/>}/>
+        <Route path='/products' element={<Page img='img/3.jpg' title='модель 03'/>}/>
+        <Route path='*' element={<Page img={img67} title='модель 04'/>}/>
+      </Routes>
     </div>
   );
 }
